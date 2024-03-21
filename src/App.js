@@ -17,23 +17,21 @@ function App() {
     "tareas_v1",
     []
   ); // contador tareas
-  const [textoBuscador, settextoBuscador] = React.useState(""); // lee estados-eventos, recibe lo escrito por el usuario
+  const [textoBuscador, settextoBuscador] = React.useState("");
 
   const tareasCompletas = contandorTareas.filter(
     (tarea) => tarea.completed
-  ).length; // contar numero de tareas existentes
+  ).length;
   const buscarTareas = contandorTareas.filter((tarea) =>
     tarea.text.toLowerCase().includes(textoBuscador.toLowerCase())
-  ); // filtrar tareas
+  );
 
   const completarTarea = (text) => {
-    // cambiar estados de completado al hacer clik en OK
-    const nuevasTarea = [...contandorTareas]; // crear copia del array de tareas
+    const nuevasTarea = [...contandorTareas];
     const tareaid = nuevasTarea.findIndex(
-      // crear identificador ID
-      (contandorTareas) => contandorTareas.text === text // comparar ID
+      (contandorTareas) => contandorTareas.text === text
     );
-    nuevasTarea[tareaid].completed = true; // realizar cambio de estado
+    nuevasTarea[tareaid].completed = true;
     setcontandoTareas(nuevasTarea);
   };
 
@@ -42,7 +40,7 @@ function App() {
     const tareaid = nuevasTarea.findIndex(
       (contandorTareas) => contandorTareas.text === text
     );
-    nuevasTarea.splice(tareaid, 1); // borrar tarea
+    nuevasTarea.splice(tareaid, 1);
     setcontandoTareas(nuevasTarea);
   };
 
