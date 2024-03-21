@@ -1,268 +1,251 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
 
-
-.body1{
-    width: auto;
-    height: auto;
-   display: flex;
-   flex-direction: column;
-   padding: 24px;
-   
+.body1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
 }
-.encabezado{
-   
-   margin-bottom: 12px;
+.encabezado {
+  margin-bottom: 12px;
 }
 .tituloPrincipal {
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    border: 0;
-    margin: 0;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  border: 0;
+  margin: 0;
 }
 .titulo {
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    border: 0;
-    margin: 0;
-    font-size: 20px;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  border: 0;
+  margin: 0;
+  font-size: 20px;
 }
 
-.efectosCargar{
-    
-    text-align: center;
-    align-self:center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
+.efectosCargar {
+  text-align: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.loading{
-    width: 150px;
-    height: 150px;
+.loading {
+  width: 150px;
+  height: 150px;
 }
 /* ----------------------------------------------------------------------------------------  */
 
-.buscador{
-    text-align: center;
+.buscador {
+  text-align: center;
 }
 
-.buscador > :first-child{
-    border-radius: 10px;
-    width: 200px;
-    height: 24px;
-    text-align: center;
-    
+.buscador > :first-child {
+  border-radius: 10px;
+  width: 200px;
+  height: 24px;
+  text-align: center;
 }
 
 /* ----------------------------------------------------------------------------------------  */
-.container{
-    display: flex;
-    border: 0;
+.container {
+  display: flex;
+  border: 0;
 }
 
-
-
-.lista{
-   
-    width: 70%;
-    margin: 0px;
-    list-style: none;
-    padding: 0 ;
-    
+.lista {
+  width: 70%;
+  margin: 0px;
+  list-style: none;
+  padding: 0;
 }
 
-.listaTareas{
-    display: flex;
-    justify-content:space-between;
-    padding: 16px;
-    margin-top: 12px;
-    border-style: inset;
+.listaTareas {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-top: 12px;
+  border-style: inset;
 }
 
-.tarea{
-    font-family: "Madimi One", sans-serif;
-    width: 80%;
-    margin: 0;
+.tarea {
+  font-family: "Madimi One", sans-serif;
+  width: 80%;
+  margin: 0;
 }
-.tareasubrayada{
-text-decoration: line-through;
-}
-
-.tareaCompletada{
-    width: 34px;
-    height: 34px;
-
-}
-.tareaCompletada:hover{
-    cursor: pointer;
-}
-.tareaCompletada-marcada{
-    background-color: rgb(155, 229, 177);
-    border-radius: 20px;
+.tareasubrayada {
+  text-decoration: line-through;
 }
 
-.eliminarTarea{
-    width: 30px;
-    height: 30px;
-
+.tareaCompletada {
+  width: 34px;
+  height: 34px;
+}
+.tareaCompletada:hover {
+  cursor: pointer;
+}
+.tareaCompletada-marcada {
+  background-color: rgb(155, 229, 177);
+  border-radius: 20px;
 }
 
-.eliminarTarea:hover{
-    cursor: pointer;
+.eliminarTarea {
+  width: 30px;
+  height: 30px;
 }
-.eliminarTarea-marcada{
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
+
+.eliminarTarea:hover {
+  cursor: pointer;
+}
+.eliminarTarea-marcada {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
 }
 /* ----------------------------------------------------------------------------------------  */
 
-.container2{
-    display:flex;
-    flex-direction: column;
-    width: 30%;
-    margin: 6 px;
-    padding-top: 6px;
-    height: 100vh;
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 6 px;
+  padding-top: 6px;
+  height: 100vh;
 }
 
-.imginicio{
-    margin-top: 24px;
-    margin-bottom: 10px;
-    align-self:center;
-    max-width: 90%; /* Hace que la imagen se ajuste al tamaño del contenedor */
-     height: auto;
+.imginicio {
+  margin-top: 24px;
+  margin-bottom: 10px;
+  align-self: center;
+  max-width: 90%; /* Hace que la imagen se ajuste al tamaño del contenedor */
+  height: auto;
 }
-.boton{
-    align-self:center;
-    margin-bottom: 200px;
-    margin-top: auto;
-    width: 100px;
-    height: 100px;
-    border: none;
-    background-color: azure;
+.boton {
+  align-self: center;
+  margin-bottom: 200px;
+  margin-top: auto;
+  width: 100px;
+  height: 100px;
+  border: none;
+  background-color: azure;
 }
-.boton:hover{
-    cursor: pointer; 
-}
-
-.boton > :first-child{
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
+.boton:hover {
+  cursor: pointer;
 }
 
-.boton > :first-child:hover{
-    transform: rotate(225deg);
-    border-radius: 20px;
+.boton > :first-child {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.boton > :first-child:hover {
+  transform: rotate(225deg);
+  border-radius: 20px;
 }
 
 /* ----------------------------------------------------------------------------------------  */
 
-.componenteModal{
-    background-color: rgba(32,35,41,.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.componenteModal {
+  background-color: rgba(32, 35, 41, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
-    flex-direction: column;
-    
+  flex-direction: column;
 }
 
-.tituloForm{
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    border: 0;
-    margin: 0;
-    font-size: 20px;
-    padding-bottom: 14px;
+.tituloForm {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  border: 0;
+  margin: 0;
+  font-size: 20px;
+  padding-bottom: 14px;
 }
 
-.form{
-    width: 400px;
-    height: 100px;
-    border-radius: 10px;
-    border-style: ridge;
-    border-color: black;
-    
+.form {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: black;
 }
 
-.botones{
-    
-    display: flex;
-    width: 400px;
-    justify-content: space-around;
-    padding-top: 24px;
+.botones {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  padding-top: 24px;
 }
 
-
-.botonagregar{
-    font-family: "Madimi One", sans-serif;
-    width: 80px;
-    height: 24px;
-    background-color: rgb(180, 232, 129);
+.botonagregar {
+  font-family: "Madimi One", sans-serif;
+  width: 80px;
+  height: 24px;
+  background-color: rgb(180, 232, 129);
 }
 
-.botoncancelar{
-    font-family: "Madimi One", sans-serif;
-    width: 80px;
-    height: 24px;
-    background-color: rgb(221, 135, 135);
+.botoncancelar {
+  font-family: "Madimi One", sans-serif;
+  width: 80px;
+  height: 24px;
+  background-color: rgb(221, 135, 135);
 }
 
-.botonagregar:hover{
-    cursor: pointer; 
+.botonagregar:hover {
+  cursor: pointer;
 }
-.botoncancelar:hover{
-    cursor: pointer; 
+.botoncancelar:hover {
+  cursor: pointer;
 }
-
 
 @media (max-width: 640px) {
-
-.body{
+  .body {
     height: 500px;
-}
-.imginicio{
+  }
+  .imginicio {
     display: none;
-}
-.container{
+  }
+  .container {
     display: flex;
     flex-direction: column;
     height: auto;
-}
+  }
 
-.lista{
+  .lista {
     width: auto;
-    
-}
+  }
 
-.container2{
+  .container2 {
     width: 100%;
     height: 40px;
-}
+  }
 
-.boton{
-   width: 50px;
-   height: 50px;
-}
-
+  .boton {
+    width: 50px;
+    height: 50px;
+  }
+  .form {
+    height: 100px;
+  }
 }

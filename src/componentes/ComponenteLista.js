@@ -1,11 +1,7 @@
-import "../estilos.css"
+import "../estilos.css";
 
-function ComponenteLista(props){
-    return(
-        <ul className ="lista">
-            {props.children}
-        </ul>
-    )
+function ComponenteLista(props) {
+  return <ul className="lista">{props.children}</ul>;
 }
 
-export {ComponenteLista}
+export { ComponenteLista };
