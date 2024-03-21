@@ -9,19 +9,18 @@ function useLocalStorage(itemName, initialValue) {
     React.useEffect(() => {
       setTimeout(() => {
         try {
-          const localStorageItem = localStorage.getItem(itemName); // inicializar datos en local storage convertiendo string a array
+          const localStorageItem = localStorage.getItem(itemName);
           let parsedItem;
   
           if (!localStorageItem) {
-            // condicion para determinar si se tiene infomacion en el local storage
-            localStorage.setItem(itemName, JSON.stringify(initialValue)); // si no se tiene info genera por defecto in array vacio
+            localStorage.setItem(itemName, JSON.stringify(initialValue));
             parsedItem = initialValue;
           } else {
-            parsedItem = JSON.parse(localStorageItem); // si tiene info se utiliza PARSE para visualizarla en el navegador
+            parsedItem = JSON.parse(localStorageItem);
             setItem(parsedItem);
           }
   
-          setLoaging(false); // una vez cargue los datos iniales se cambia el estador de loging
+          setLoaging(false);
         } catch (error) {
           setLoaging(false);
           setError(true);
@@ -30,9 +29,8 @@ function useLocalStorage(itemName, initialValue) {
     }, []);
   
     const guardarItem = (newitem) => {
-      // funcion para guardar cambios en el local Storage
-      localStorage.setItem("tareas_v1", JSON.stringify(newitem)); // actualizar y guardar tareas en el LOCAL STORAGE
-      setItem(newitem); // enviar tareas actuales
+      localStorage.setItem("tareas_v1", JSON.stringify(newitem));
+      setItem(newitem);
     };
   
     return [item, guardarItem, loading, error];

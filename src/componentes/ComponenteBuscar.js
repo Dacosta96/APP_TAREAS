@@ -6,7 +6,6 @@ function ComponenteBuscar({ textoBuscador, settextoBuscador }) {
     <div className="buscador">
       <input
         onChange={(event) => {
-          // contador de estados-eventos, recibe lo escrito por el usuario
           settextoBuscador(event.target.value);
         }}
         type="text"
