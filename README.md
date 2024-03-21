@@ -1,15 +1,24 @@
 
 # APP-TAREAS
 
-¡Hola, Platzinauta!
+Esta es una aplicación web que te permite escribir tareas en forma de notas post-it. Fue creado siguiendo el Curso de Introducción a React.js de Platzi , en el que se desarrollaron las características básicas de esta aplicación. Los más relevantes son:
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+1. Persistencia en la memoria.
+2. tareas de búsqueda.
+3. crear nuevas tareas pendientes.
+4. marcar las tareas como completadas.
+5. eliminar tareas.
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+## Enlaces
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+1. Url del sitio: https://dacosta96.github.io/APP_TAREAS/
 
-## Getting Started with Create React App
+# Tecnologias
 
-# APP_TAREAS
->>>>>>> d0c87b154e3e7f267285e55d5505688007c0e138
+1. Javascript
+2. Css
+3. React.js
+
+# Proceso
+
+# Captura
